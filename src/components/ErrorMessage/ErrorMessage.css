@@ -1,0 +1,16 @@
+.error-message {
+  margin: 10px 0;
+  font-size: 16px;
+  padding: 10px;
+  color: rgb(210, 70, 70);
+  border-radius: 5px;
+  text-align: center;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.error-message.hidden {
+  opacity: 0;
+  pointer-events: none;
+  max-height: 0;
+}

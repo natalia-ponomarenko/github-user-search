@@ -1,0 +1,56 @@
+.card {
+  text-align: center;
+  background: rgba(85, 70, 70, 0.59);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  border: 1px solid rgba(85, 70, 70, 0.37);
+  color: #E6EDF3;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px 0;
+}
+
+.card__image {
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.card__login {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.card__bio {
+  font-size: 14px;
+  padding: 10px 5px;
+}
+
+.card__link {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 16px;
+  font-weight: 16px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #E6EDF3;
+  color: #E6EDF3;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: block;
+  transition: all 0.3s ease-out;
+}
+
+.card__link:hover {
+  border: 1px solid #2d79e6;
+  color: #2d79e6;
+}
+
+.card__icon {
+  color: #E6EDF3;
+  margin-right: 5px;
+  padding: 5px;
+}
