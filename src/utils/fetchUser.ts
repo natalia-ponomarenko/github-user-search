@@ -6,6 +6,7 @@ export const fetchUser = async (username: string) => {
   if (!response.ok) {
     throw new Error(`Error fetching user data: ${response.statusText}`);
   }
+
   const data = await response.json();
   return data;
 };

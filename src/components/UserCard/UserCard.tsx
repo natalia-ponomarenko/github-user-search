@@ -1,15 +1,16 @@
 import React from "react";
-import './UserCard.css';
+import "./UserCard.css";
 import { useAppSelector } from "../../redux/hooks";
 
-const UserCard: React.FC= () => {
+const UserCard: React.FC = () => {
   const user = useAppSelector((state) => state.user.user);
 
   if (!user) {
     return null;
   }
-  
+
   const { avatar_url, login, bio, html_url } = user;
+
   return (
     <div className="card">
       <img
@@ -18,7 +19,7 @@ const UserCard: React.FC= () => {
         className="card__image"
       />
       <h2 className="card__login">{login}</h2>
-      <p className="card__bio">{bio ? bio : 'No bio provided'}</p>
+      <p className="card__bio">{bio ? bio : "No bio provided"}</p>
       <a
         href={html_url}
         target="_blank"

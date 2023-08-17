@@ -15,9 +15,12 @@ const searchSlice = createSlice({
     setQueryData: (state, action) => {
       state.queryData = action.payload;
     },
+    clearQueryData: (state) => {
+      state.queryData = "";
+    },
   },
 });
 
-export const { setQueryData } = searchSlice.actions;
+export const { setQueryData, clearQueryData } = searchSlice.actions;
 
 export default searchSlice.reducer;

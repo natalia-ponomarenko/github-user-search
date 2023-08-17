@@ -1,7 +1,7 @@
 # React Github User Search
-This user-friendly project simplifies the process of exploring GitHub profiles by allowing users to input a specific username. Upon hitting the search button, the application seamlessly fetches the user's details, including their distinctive avatar, username, and captivating bio and link to the profile.
+This project simplifies the process of exploring GitHub profiles by allowing users to input a specific username. Upon hitting the search button, the application fetches the user's details, including their avatar, username, and captivating bio and link to the profile. Responsive for all types of devices.
 
-Even in cases where an entered username does not correspond to an existing GitHub user, the application remains user-focused and shows error.
+Even in case when an entered username does not correspond to an existing GitHub user, the application remains user-focused and shows an error.
 
 - [DEMO LINK](https://natalia-ponomarenko.github.io/github-user-search)
 
